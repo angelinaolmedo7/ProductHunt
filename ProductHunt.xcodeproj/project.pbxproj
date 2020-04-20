@@ -14,6 +14,7 @@
 		29E2B3E9244E16000085B6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E2B3E8244E16000085B6DB /* Assets.xcassets */; };
 		29E2B3EC244E16000085B6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E2B3EA244E16000085B6DB /* LaunchScreen.storyboard */; };
 		29E2B3F4244E180E0085B6DB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B3F3244E180E0085B6DB /* Post.swift */; };
+		29E2B3F6244E1F620085B6DB /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B3F5244E1F620085B6DB /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		29E2B3EB244E16000085B6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29E2B3ED244E16000085B6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29E2B3F3244E180E0085B6DB /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		29E2B3F5244E1F620085B6DB /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				29E2B3E8244E16000085B6DB /* Assets.xcassets */,
 				29E2B3EA244E16000085B6DB /* LaunchScreen.storyboard */,
 				29E2B3ED244E16000085B6DB /* Info.plist */,
+				29E2B3F5244E1F620085B6DB /* PostTableViewCell.swift */,
 			);
 			path = ProductHunt;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				29E2B3E4244E15FE0085B6DB /* FeedViewController.swift in Sources */,
 				29E2B3E0244E15FE0085B6DB /* AppDelegate.swift in Sources */,
+				29E2B3F6244E1F620085B6DB /* PostTableViewCell.swift in Sources */,
 				29E2B3E2244E15FE0085B6DB /* SceneDelegate.swift in Sources */,
 				29E2B3F4244E180E0085B6DB /* Post.swift in Sources */,
 			);
