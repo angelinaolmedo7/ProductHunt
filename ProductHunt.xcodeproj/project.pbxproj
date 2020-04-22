@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2905EC3E244FC1C600E7AEBB /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EC3D244FC1C600E7AEBB /* CommentsViewController.swift */; };
 		2905EC40244FC2CE00E7AEBB /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EC3F244FC2CE00E7AEBB /* CommentTableViewCell.swift */; };
+		2905EC42244FE13D00E7AEBB /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EC41244FE13D00E7AEBB /* Comment.swift */; };
 		29E2B3E0244E15FE0085B6DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B3DF244E15FE0085B6DB /* AppDelegate.swift */; };
 		29E2B3E2244E15FE0085B6DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B3E1244E15FE0085B6DB /* SceneDelegate.swift */; };
 		29E2B3E4244E15FE0085B6DB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B3E3244E15FE0085B6DB /* FeedViewController.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		2905EC3D244FC1C600E7AEBB /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
 		2905EC3F244FC2CE00E7AEBB /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		2905EC41244FE13D00E7AEBB /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		29E2B3DC244E15FE0085B6DB /* ProductHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E2B3DF244E15FE0085B6DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29E2B3E1244E15FE0085B6DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				2905EC3F244FC2CE00E7AEBB /* CommentTableViewCell.swift */,
 				29E2B3E3244E15FE0085B6DB /* FeedViewController.swift */,
 				2905EC3D244FC1C600E7AEBB /* CommentsViewController.swift */,
+				2905EC41244FE13D00E7AEBB /* Comment.swift */,
 				29E2B3E5244E15FE0085B6DB /* Main.storyboard */,
 				29E2B3E8244E16000085B6DB /* Assets.xcassets */,
 				29E2B3EA244E16000085B6DB /* LaunchScreen.storyboard */,
@@ -160,6 +163,7 @@
 				29E2B3E0244E15FE0085B6DB /* AppDelegate.swift in Sources */,
 				29E2B3F6244E1F620085B6DB /* PostTableViewCell.swift in Sources */,
 				29E2B3E2244E15FE0085B6DB /* SceneDelegate.swift in Sources */,
+				2905EC42244FE13D00E7AEBB /* Comment.swift in Sources */,
 				29E2B3F4244E180E0085B6DB /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
