@@ -21,7 +21,6 @@ struct Post {
 
 }
 
-// Have a matching decodable array in our struct for the array of posts we get back from the API
 struct PostList: Decodable {
    var posts: [Post]
 }
