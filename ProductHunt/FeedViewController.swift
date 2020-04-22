@@ -29,13 +29,15 @@ class FeedViewController: UIViewController {
     }
     
     func updateFeed() {
-      // call our network manager's getPosts method to update our feed with posts
        networkManager.getPosts() { result in
-           self.posts = result
+           switch result {
+           case let .success(posts):
+             self.posts = posts
+           case let .failure(error):
+             print(error)
+           }
        }
     }
-
-
 }
 
 // MARK: UITableViewDataSource
@@ -68,12 +70,11 @@ extension FeedViewController: UITableViewDelegate {
         
         // Get the storyboard
          let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        // Get the commentsView from the storyboard
          guard let commentsView = storyboard.instantiateViewController(withIdentifier: "commentsView") as? CommentsViewController else {
            return
          }
-         // add mock comments
-         commentsView.comments = ["Blah blah blah!", "Good app.", "Wow."]
+         // set the post id for the comments
+         commentsView.postID = post.id
          navigationController?.pushViewController(commentsView, animated: true)
     }
 }
